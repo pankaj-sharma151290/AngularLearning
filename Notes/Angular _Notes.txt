@@ -1,0 +1,24 @@
+-----------------------------------
+Prerequisites: https://angular.io/guide/setup-local
+-----------------------------------
+
+- install node with NPM -- https://nodejs.org/en/
+-> CMD
+Angular-Setup -- npm install -g @angular/cli
+========================================================================
+
+---------------------------
+Notes
+---------------------------
+
+start server -> ng serve
+create application  -> ng new <app-name> --no-strict
+add bootstrap pkg   -> npm install --save bootstrap@3
+create component 	-> ng g c <component-name> --skipTests
+					-> add styles in agular.json "node_modules/bootstrap/dist/css/bootstrap.min.css",
+Observables			-> npm install --save rxjs@6
+					-> npm install --save rxjs-compat
+Questions:
+
+whats is bootstrapclasses-- done
+angular library
